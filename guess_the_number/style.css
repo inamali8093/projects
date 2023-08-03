@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    background: rgb(209, 203, 203);
+    height: 8vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 2px solid black;
+
+}
+a{
+    display: flex;
+    align-items: center;
+    height: 4px;
+    width: max-content;
+    border: 3px solid black;
+    border-radius: 5px;
+    text-decoration: none;
+    color: black;
+    padding: 15px;
+    margin: 10px;
+}
+a:hover{
+    background-color: grey;
+}
+body{
+    background-color: #808080;
+}
+h1,p{
+    text-align: center;
+    /* padding: 15px; */
+    margin: 10px auto 25px 15px;
+}
+h3{
+    text-align: center;
+   
+}
+label,#myGuess,button,.result{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%,25px);
+    height: 25px;
+    width: 150px;
+    
+}
+#myGuess{
+    transform: translate(-50%,50px);
+    border: 2px solid black; 
+    border-radius: 5px;
+    height: 35px;
+    text-align: center;
+}
+button{
+    transform: translate(-50%,95px);
+    border: 2px solid black;
+    border-radius: 5px; 
+}
+.bottomText{
+    transform: translateY(150px);
+}
+.result{
+    height: 40px;
+    width: 200px;
+    border: 2px solid black;
+    text-align: center;
+    transform: translate(-50%,150px);
+    background-color: #fff;
+}
+#question{
+    transform: translate(0px,210px);
+}
+#btn1{
+    display: inline-block;
+    transform: translate(-125%,205px);
+}
+#btn2{
+    display: inline-block;
+    transform: translate(25%,205px);
+}

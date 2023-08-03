@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    background: rgb(209, 203, 203);
+    height: 8vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 2px solid black;
+
+}
+a{
+    display: flex;
+    align-items: center;
+    height: 4px;
+    width: max-content;
+    border: 3px solid black;
+    border-radius: 5px;
+    text-decoration: none;
+    color: black;
+    padding: 15px;
+    margin: 10px;
+}
+a:hover{
+    background-color: grey;
+}
+body{
+    background-color: #212121;
+}
+main{
+   padding: 10px ;
+}
+h1{
+    color: #fff;
+}
+.project_link{
+   min-width: calc(100vw - 75px); 
+    background-color: rgb(209, 203, 203);
+}
+a[aria-current=page]{
+    background-color: grey;
+}
+
+
+

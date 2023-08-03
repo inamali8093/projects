@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guess The Number</title>
+</head>
+<link rel="stylesheet" href="style.css">
+
+<body>
+    <nav>
+        <a href="/projects/index.html" aria-current="page">Home</a>
+        <a target="_blank" href="https://github.com/inamali8093">Github Account</a>
+    </nav>
+    <main>
+        <h1>Number Guessing Game</h1>
+        <form>
+            <p>Try and guess a random number between 1 and 100</p>
+            <p>You have 10 attempts to guess the right number</p>
+            <div class="formInput">
+                <label for="myGuess">
+                    <h3>Guess a number</h3>
+                </label><br>
+                <input type="text" id="myGuess"><br>
+                <button id="btn">submit guess</button>
+            </div>
+        </form>
+        <div class="resultDiv">
+            <p class="bottomText"><span class="prevGuessed">Previous Guesses: </span></p>
+            <p class="bottomText"><span class="remainAttempt">Remaining Attempts:10 </span></p>
+            <p><span class="result"></span></p>
+        </div>
+        <div class="confirm"></div>
+    </main>
+</body>
+<script src="script.js"></script>
+</html>

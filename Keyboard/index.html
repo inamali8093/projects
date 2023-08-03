@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Keyboard</title>
+</head>
+<style>
+    *{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    background: rgb(209, 203, 203);
+    height: 8vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 2px solid black;
+
+}
+a{
+    display: flex;
+    align-items: center;
+    height: 4px;
+    width: max-content;
+    border: 3px solid black;
+    border-radius: 5px;
+    text-decoration: none;
+    color: black;
+    padding: 15px;
+    margin: 10px;
+}
+a:hover{
+    background-color: grey;
+}
+body{
+    background-color: #888484;
+}
+.insert{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+table{
+    border: 2px solid black;
+    margin: 40px 120px;
+    width: 343px;
+    text-align: center;
+    border-collapse: collapse;
+}
+td,th{
+    border: 1px solid black;
+    
+}
+
+</style>
+<body>
+    <nav>
+        <a href="/projects/index.html" aria-current="page">Home</a>
+        <a target="_blank" href="https://github.com/inamali8093">Github Account</a>
+    </nav>
+    <div class="insert"> </div>
+</body>
+<script src="script.js"></script>
+</html>
